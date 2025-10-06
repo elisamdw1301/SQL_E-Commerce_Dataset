@@ -20,5 +20,5 @@ SELECT
   TRIM(`customer_type `) AS customer_type,
   TRIM(`province `) AS province,
   TRIM(`registration_channel `) AS registration_channel
-FROM `FinalProject.customer_detail`
+FROM `FinalProject.customer_detail`;
 
