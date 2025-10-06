@@ -1,8 +1,9 @@
 -- Tren Penjualan Kategori 2020–2024.
 
-SELECT    -- Menampilkan jumlah quantity tiap tahun per kategory
-    p.category,
-    SUM(CASE WHEN EXTRACT(YEAR FROM o.order_date) = 2020 THEN o.quantity ELSE 0 END) AS year_2020,
+SELECT    
+    p.category, -- Menampilkan kolom `categoty` dari tabel `product_detail`
+    -- Menjumlahkan nilai pada kolom `quantity` berdasarkan tahun pada kolom `order_date`
+    SUM(CASE WHEN EXTRACT(YEAR FROM o.order_date) = 2020 THEN o.quantity ELSE 0 END) AS year_2020, 
     SUM(CASE WHEN EXTRACT(YEAR FROM o.order_date) = 2021 THEN o.quantity ELSE 0 END) AS year_2021,
     SUM(CASE WHEN EXTRACT(YEAR FROM o.order_date) = 2022 THEN o.quantity ELSE 0 END) AS year_2022,
     SUM(CASE WHEN EXTRACT(YEAR FROM o.order_date) = 2023 THEN o.quantity ELSE 0 END) AS year_2023,
