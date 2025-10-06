@@ -1,4 +1,4 @@
--- Total pendapatan per bulan tahun 2024?
+-- Total pendapatan per bulan tahun 2024.
 SELECT
   EXTRACT(month FROM transaction_date) AS month,
   SUM(total_paid) AS total_revenue
