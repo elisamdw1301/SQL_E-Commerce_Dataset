@@ -24,6 +24,7 @@ Menganalisis total pendapatan dan tren perjualan tahun 2020-2024
 ## Analisis Utama
 ### 1. Laporan Pendapatan Bulanan 2024
 Menganalisis total pendapatan per bulan di tahun 2024.
+
 Query : 
 ### 2. Tren Penjualan Kategori 2020–2024.
 Mengidentifikasi kategori produk dengan total penjualan tertinggi.
