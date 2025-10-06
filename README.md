@@ -26,17 +26,25 @@ Menganalisis total pendapatan dan tren perjualan tahun 2020-2024
 Menganalisis total pendapatan per bulan di tahun 2024.
 
 Query : 
+
 ### 2. Tren Penjualan Kategori 2020–2024.
 Mengidentifikasi kategori produk dengan total penjualan tertinggi.
+
 Query : 
+
 ### 3. Pertumbuhan Channel Bulanan 
 Menganalisis MoM Growth Revenue per bulan 2024 vs 2023 dalam bulan yang sama berdasarkan channel.
+
 Query :
+
 ### 4. Laporan Kinerja Funnel untuk Event Organic 2024.
 Menganalisis tingkat efektivitas jalur organik. 
+
 Query :
+
 ### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama.
 Menganalisis optimasi onboarding.
+
 Query : 
 
 
