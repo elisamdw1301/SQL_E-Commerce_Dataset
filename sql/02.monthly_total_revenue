@@ -1,0 +1,8 @@
+-- Total pendapatan per bulan tahun 2024?
+SELECT
+  EXTRACT(month FROM transaction_date) AS month,
+  SUM(total_paid) AS total_sales
+FROM `FinalProject.transaction_detail`
+WHERE EXTRACT(year FROM transaction_date) = 2024
+GROUP BY month
+ORDER BY month
