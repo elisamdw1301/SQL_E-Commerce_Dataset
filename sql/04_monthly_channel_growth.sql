@@ -38,14 +38,13 @@ WITH
     FROM orders_2023
     GROUP BY month, channel_type
   )
-SELECT -- Menampilkan 
+SELECT 
   FORMAT_DATE('%B', DATE(2024, a24.month, 1)) AS period,
   a24.channel_type AS channel,
   a24.total_orders,
   ROUND(a24.revenue_2024, 2) AS revenue_2024,
   ROUND(COALESCE(a23.revenue_2023, 0), 2) AS revenue_2023,
-  CONCAT(ROUND(SAFE_DIVIDE(a24.revenue_2024 - COALESCE(a23.revenue_2023, 0), NULLIF(a23.revenue_2023, 0)) *
-      100, 2), '%') AS yoy_growth,
+  CONCAT(ROUND(SAFE_DIVIDE(a24.revenue_2024 - COALESCE(a23.revenue_2023, 0), NULLIF(a23.revenue_2023, 0)) * 100, 2), '%') AS yoy_growth,
   CASE
     WHEN a23.revenue_2023 IS NULL OR a23.revenue_2023 = 0 THEN 'New Channel'
     WHEN SAFE_DIVIDE(a24.revenue_2024 - a23.revenue_2023, a23.revenue_2023) > 0.1 THEN 'Strong Growth'
