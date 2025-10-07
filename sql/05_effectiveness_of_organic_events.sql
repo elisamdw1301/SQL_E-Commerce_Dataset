@@ -1,4 +1,4 @@
--- 
+-- Efektifitas jalur organic
 
 WITH organic AS (  -- CTE untuk menampilkan data dari tabel `funnel_detail`
   SELECT
@@ -17,4 +17,4 @@ SELECT
   CONCAT((SAFE_DIVIDE(COUNT(DISTINCT NULLIF(order_id, '')), COUNT(*)) * 100), '%') AS conversion_rate
 FROM organic -- Mengambil data dari CTE yang telah dibuat
 GROUP BY channel_source  -- Mengelompokkan hasil berdasarkan `channel_source`
-ORDER BY total_events DESC; -- Mengurutkan hasil berdasarkan `total_events` yang terbesar
+ORDER BY total_events DESC; -- Mengurutkan hasil berdasarkan `total_events` dari yang terbesar
