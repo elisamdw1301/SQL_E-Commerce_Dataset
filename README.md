@@ -27,7 +27,7 @@ Menganalisis total pendapatan per bulan di tahun 2024.
 
 Query : 
 
-### 2. Tren Penjualan Kategori 2020–2024.
+### 2. Tren Penjualan per Kategori 2020–2024.
 Mengidentifikasi kategori produk dengan total penjualan tertinggi.
 
 Query : 
@@ -50,6 +50,21 @@ Query :
 ## Hasil Analisis
 ### 1. Laporan Pendapatan Bulanan 2024
 #### Insight 
-- Titik penjualan tertinggi terjadi pada bulan Oktober sebesar 834M : Didorong event akhir tahun & liburan, konsumen lebih konsumtif.
-- Titik penjualan terendah terjadi pada bulan Januari sebesar 118M : Awal tahun konsumen menahan untuk belanja pasca liburan.
-- Tren kenaikan di Q4 (_seasonal trend_) : Data menunjukkan pola musiman yang konsisten. 
+- Titik penjualan tertinggi terjadi pada bulan Oktober sebesar 834M: Didorong event akhir tahun & liburan, konsumen lebih konsumtif.
+- Titik penjualan terendah terjadi pada bulan Januari sebesar 118M: Awal tahun konsumen menahan belanja pasca liburan.
+- Tren kenaikan di Q4 (_seasonal trend_): Data menunjukkan pola musiman yang konsisten.
+#### Implikasi
+- Tingkatkan stok & kampanye sejak awal Q4.
+- Luncurkan promo pasca-liburan & fokus produk dengan penjualan tertinggi.
+- Gunakan pola ini untuk perencanaan inventory, SDM, dan strategi marketing tahunan.
+### 2. Tren Penjualan per Kategori 2020–2024.
+#### Insight
+- Permintaan pasar untuk kategori Toys&Games dan Gaming Gear mengalami penurunan.
+- Permintaan pasar untuk kategori Electronics, Sports, dan Beauty cenderung stabil.
+- Permintaan pasar untuk kategori Home Decor dan Fashion mengalami peningkatan di tahun 2024.
+- Permintaan Kitchen Appliances melonjak hanya di tahun 2022 (musiman). Implikasi: strategi promosi musiman bisa diulang untuk memaksimalkan momentum.
+#### Implikasi 
+- Perlu inovasi produk untuk kategori Toys&Games dan Gaming Gear.
+- Fokus efisiensi biaya dan supply chain untuk kategori Electronics, Sports, dan Beauty.
+- Peluang besar untuk ekspansi produk & kampanye pemasaran lebih agresif untuk kategori Home Decor dan Fashion.
+- Strategi promosi musiman bisa diulang untuk memaksimalkan momentum.
