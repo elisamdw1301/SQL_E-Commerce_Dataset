@@ -57,6 +57,7 @@ Query :
 - Tingkatkan stok & kampanye sejak awal Q4.
 - Luncurkan promo pasca-liburan & fokus produk dengan penjualan tertinggi.
 - Gunakan pola ini untuk perencanaan inventory, SDM, dan strategi marketing tahunan.
+  
 ### 2. Tren Penjualan per Kategori 2020–2024.
 #### Insight
 - Permintaan pasar untuk kategori Toys&Games dan Gaming Gear mengalami penurunan.
@@ -67,4 +68,18 @@ Query :
 - Perlu inovasi produk untuk kategori Toys&Games dan Gaming Gear.
 - Fokus efisiensi biaya dan supply chain untuk kategori Electronics, Sports, dan Beauty.
 - Peluang besar untuk ekspansi produk & kampanye pemasaran lebih agresif untuk kategori Home Decor dan Fashion.
-- Strategi promosi musiman bisa diulang untuk memaksimalkan momentum.
+- Strategi promosi musiman untuk kategori Kitchen Appliances bisa diulang untuk memaksimalkan momentum.
+### 3. Pertumbuhan Channel Bulanan 
+#### Insight
+- Channel Website menunjukkan stabilitas, namun pertumbuhan terbatas.
+#### Implikasi
+- Fokus memperkuat App channel karena growth paling tinggi.
+- Optimalkan channel Website untuk retensi pelanggan lama.
+### 4. Laporan Kinerja Funnel untuk Event Organic 2024.
+#### Insight
+- Semua channel (App Store, Play Store, Website) memiliki conversion rate yang sama, yaitu 25%: Efektivitas tiap channel setara.
+- Play Store memiliki total event terbesar yaitu 200: Memiliki potensi traffic lebih tinggi. 
+- App Store & Website memiliki event lebih rendah yaitu 176 & 172. Walau konversi sama, perlu strategi meningkatkan awareness/traffic agar kontribusi seimbang dengan Play Store.
+#### Implikasi
+- Memaksimalkan promosi tambahan untuk meningkatkan volume order untuk Play Store.
+- Perlu strategi untuk meningkatkan _awareness/traffic_ pada App Store & Website agar kontribusi seimbang dengan Play Store.
