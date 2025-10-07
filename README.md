@@ -69,12 +69,14 @@ Query :
 - Fokus efisiensi biaya dan supply chain untuk kategori Electronics, Sports, dan Beauty.
 - Peluang besar untuk ekspansi produk & kampanye pemasaran lebih agresif untuk kategori Home Decor dan Fashion.
 - Strategi promosi musiman untuk kategori Kitchen Appliances bisa diulang untuk memaksimalkan momentum.
+  
 ### 3. Pertumbuhan Channel Bulanan 
 #### Insight
 - Channel Website menunjukkan stabilitas, namun pertumbuhan terbatas.
 #### Implikasi
 - Fokus memperkuat App channel karena growth paling tinggi.
 - Optimalkan channel Website untuk retensi pelanggan lama.
+  
 ### 4. Laporan Kinerja Funnel untuk Event Organic 2024.
 #### Insight
 - Semua channel (App Store, Play Store, Website) memiliki conversion rate yang sama, yaitu 25%: Efektivitas tiap channel setara.
@@ -83,3 +85,13 @@ Query :
 #### Implikasi
 - Memaksimalkan promosi tambahan untuk meningkatkan volume order untuk Play Store.
 - Perlu strategi untuk meningkatkan _awareness/traffic_ pada App Store & Website agar kontribusi seimbang dengan Play Store.
+
+### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama.
+#### Insight
+- Kekuatan Channel Mobile App yaitu akuisisi tertinggi dan konsisten. Sedangkan kelemahannya yaitu konversi tidak secepat Offline Store.
+- Kekuatan Channel Offline Store yaitu konversi tercepat. Sedangkan kelemahannya yaitu jumlah pelanggan baru sedikit.
+- Kekuatan Channel Website yaitu masih berkontribusi dalam akuisisi. Sedangkan kelemahannya yaitu konversi yang lambat dan jumlah pelanggan sedikit.
+#### Implikasi
+- Untuk Channel Mobile App, perlu dioptimalkan promo in-app, push notification, & onboarding user.
+- Untuk Channel Offline Store, tetap dijaga sebagai channel pendukung, fokus pada segmen tertentu.
+- Untuk Channel Website, perlu memperbaiki UX, checkout flow, dan lakukan retargeting pasca registrasi.
