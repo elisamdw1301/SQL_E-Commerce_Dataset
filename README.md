@@ -8,19 +8,20 @@ Menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan unt
 - Looker Studio : Visualisasi data hasil analisis
 
 ## Dataset
-- `customer_detail.csv`
-- `funnel_detail.csv`
-- `order_detail.csv`
-- `payment_detail.csv`
-- `product_detail.csv`
-- `transaction_detail.csv`
+- `customer_detail.csv` [Lihat Tabel](data/customer_detail.csv)
+- `funnel_detail.csv` [Lihat Tabel](data/funnel_detail.csv)
+- `order_detail.csv` [Lihat Tabel](data/order_detail.csv)
+- `payment_detail.csv` [Lihat Tabel](data/payment_detail.csv)
+- `product_detail.csv` [Lihat Tabel](data/product_detail.csv)
+- `transaction_detail.csv` [Lihat Tabel](data/transaction_detail.csv)
 
 ## Data Cleaning
 1. Menghapus duplikasi pada tabel `order_detail`
 2. Mengganti NULL pada kolom `province` dengan `UNKNOWN`
 3. Menghapus baris jika `customer_id` bernilai NULL
 4. Menghapus spasi berlebih pada data tabel `customer_detail`
-Query : sql/01_cleaning.sql
+
+[Lihat Query](sql/01_cleaning.sql)
 
 ## Analisis Utama
 ### 1. Laporan Pendapatan Bulanan 2024
