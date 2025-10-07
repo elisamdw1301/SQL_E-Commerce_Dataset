@@ -1,7 +1,7 @@
 # SQL E-Commerce Dataset
 
 ## Tujuan 
-Menganalisis total pendapatan dan tren perjualan tahun 2020-2024
+Menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan untuk periode 2020-2024.
 
 ## Tools 
 - BigQuery : Query dan analisis data
@@ -47,4 +47,9 @@ Menganalisis optimasi onboarding.
 
 Query : 
 
-
+## Hasil Analisis
+### 1. Laporan Pendapatan Bulanan 2024
+#### Insight 
+- Titik penjualan tertinggi terjadi pada bulan Oktober sebesar 834M : Didorong event akhir tahun & liburan, konsumen lebih konsumtif.
+- Titik penjualan terendah terjadi pada bulan Januari sebesar 118M : Awal tahun konsumen menahan untuk belanja pasca liburan.
+- Tren kenaikan di Q4 (_seasonal trend_) : Data menunjukkan pola musiman yang konsisten. 
