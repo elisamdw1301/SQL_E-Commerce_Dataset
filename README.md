@@ -20,32 +20,33 @@ Menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan unt
 2. Mengganti NULL pada kolom `province` dengan `UNKNOWN`
 3. Menghapus baris jika `customer_id` bernilai NULL
 4. Menghapus spasi berlebih pada data tabel `customer_detail`
+Query : sql/01_cleaning.sql
 
 ## Analisis Utama
 ### 1. Laporan Pendapatan Bulanan 2024
 Menganalisis total pendapatan per bulan di tahun 2024.
 
-Query : 
+Query : sql/02_monthly_total_revenue.sql
 
 ### 2. Tren Penjualan per Kategori 2020–2024.
 Mengidentifikasi kategori produk dengan total penjualan tertinggi.
 
-Query : 
+Query : sql/03_sales_trend_by_category.sql
 
 ### 3. Pertumbuhan Channel Bulanan 
 Menganalisis MoM Growth Revenue per bulan 2024 vs 2023 dalam bulan yang sama berdasarkan channel.
 
-Query :
+Query : sql/04_monthly_channel_growth.sql
 
 ### 4. Laporan Kinerja Funnel untuk Event Organic 2024.
 Menganalisis tingkat efektivitas jalur organik. 
 
-Query :
+Query : sql/05_effectiveness_of_organic_events.sql
 
 ### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama.
 Menganalisis optimasi onboarding.
 
-Query : 
+Query : sql/06_customer_onboarding_optimization.sql
 
 ## Hasil Analisis
 ### 1. Laporan Pendapatan Bulanan 2024
