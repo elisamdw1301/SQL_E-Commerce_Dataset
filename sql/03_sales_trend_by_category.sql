@@ -1,6 +1,5 @@
 -- ANALISIS 2
 
-
 -- Menampilkan tren penjualan berdasarkan kategori
 SELECT    
     p.category, 
