@@ -8,14 +8,14 @@ Menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan unt
 - Looker Studio : Visualisasi data hasil analisis
 
 ## Dataset
-- `customer_detail.csv` [tabel](data/customer_detail.csv) [keterangan]()
-- `funnel_detail.csv` [tabel](data/funnel_detail.csv) [keterangan]()
-- `order_detail.csv` [tabel](data/order_detail.csv) [keterangan]()
-- `payment_detail.csv` [tabel](data/payment_detail.csv) [keterangan]()
-- `product_detail.csv` [tabel](data/product_detail.csv) [keterangan]()
-- `transaction_detail.csv` [tabel](data/transaction_detail.csv) [keterangan]()
+- `customer_detail.csv` [tabel](data/customer_detail.csv) & [keterangan](image/customer_detail.png)
+- `funnel_detail.csv` [tabel](data/funnel_detail.csv) & [keterangan](image/funnel_detail.png)
+- `order_detail.csv` [tabel](data/order_detail.csv) & [keterangan](image/order_detail.png)
+- `payment_detail.csv` [tabel](data/payment_detail.csv) & [keterangan](image/payment_detail.png)
+- `product_detail.csv` [tabel](data/product_detail.csv) & [keterangan](image/product_detail.png)
+- `transaction_detail.csv` [tabel](data/transaction_detail.csv) & [keterangan](image/transaction_detail.png)
 
-[skema dataset]()
+[skema dataset](image/skema.png)
 
 ## Data Cleaning
 1. Menghapus spasi berlebih
