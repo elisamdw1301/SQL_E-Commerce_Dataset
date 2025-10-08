@@ -1,7 +1,7 @@
 -- DATA CLEANING
 
 
--- 1. Menghapus spasi berlebih pada tabel `customer_detail`
+-- 1. Menghapus spasi berlebih 
 CREATE OR REPLACE TABLE `FinalProject.customer_detail_cleaned` AS  -- Membuat tabel baru 
   SELECT  -- Mengambil data 
     registration_date,  -- Memilih kolom `registration_date`
