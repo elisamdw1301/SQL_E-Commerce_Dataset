@@ -1,6 +1,6 @@
 -- ANALISIS 1
 
--- Menghitung total pendapatan per bulan tahun 2024
+-- Menganalisis total pendapatan per bulan tahun 2024
 
 SELECT
   EXTRACT(MONTH FROM transaction_date) AS month, 
