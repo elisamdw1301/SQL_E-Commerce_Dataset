@@ -1,6 +1,6 @@
 -- ANALISIS 3
 
--- Menganalisis pertumbuhan channel per bulan
+-- Menganalisis YoY Growth Revenue per bulan 2024 vs 2023 dalam bulan yang sama berdasarkan channel
 
 -- 1. Menghitung total pesanan (distinct) dan pendapatan (after_discount) per bulan tahun 2023 dan 2024
 -- CTE pertama untuk menampilkan data tahun 2024
