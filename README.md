@@ -1,92 +1,134 @@
-# SQL E-Commerce Dataset
+# 🛍️ SQL E-Commerce Dataset
 
-## Tujuan 
-Project ini bertujuan untuk menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan untuk periode 2020-2024.
+## 📄 Deskripsi
+Proyek ini bertujuan untuk menganalisis total penjualan, channel, funnel, dan perilaku pelanggan untuk periode 2020-2024 menggunakan **Google BigQuery** dan **Google Looker Studio**. Fokus analisis meliputi:
+- Total pendapatan bulanan tahun 2024
+- Tren penjualan berdasarkan kategori
+- Pertumbuhan channel bulanan
+- Kinerja funnel untuk event organic tahun 2024
+- Tingkat optimasi customer onboarding
 
-## Tools 
-- BigQuery : Query dan analisis data
-- Looker Studio : Visualisasi data hasil analisis
-## 🧠 Skill & Tools yang Digunakan
+Tujuan akhir dari proyek ini adalah memberikan **insight strategis** yang dapat digunakan untuk mengambil keputusan bisnis.
 
-| Skill / Tool          | Keterangan Penggunaan |
-|------------------------|-------------------------|
-| SQL (BigQuery)         | Data cleaning dan analisis tren penjualan |
-| Looker Studio          | Dashboard dan visualisasi interaktif |
-| GitHub & Markdown      | Publikasi project dalam bentuk portofolio |
+---
 
+## 📚 Dataset
+Dataset yang digunakan adalah **Final Project** yang berasal dari **Bootcamp Data Analysis**. Terdapat [skema dataset](image/skema.png) yang akan digunakan dan berikut penjabaran dataset yang terdiri dari beberapa file `.csv`:
 
-## Dataset
-- `customer_detail.csv` [tabel](data/customer_detail.csv) & [keterangan](image/customer_detail.png)
-- `funnel_detail.csv` [tabel](data/funnel_detail.csv) & [keterangan](image/funnel_detail.png)
-- `order_detail.csv` [tabel](data/order_detail.csv) & [keterangan](image/order_detail.png)
-- `payment_detail.csv` [tabel](data/payment_detail.csv) & [keterangan](image/payment_detail.png)
-- `product_detail.csv` [tabel](data/product_detail.csv) & [keterangan](image/product_detail.png)
-- `transaction_detail.csv` [tabel](data/transaction_detail.csv) & [keterangan](image/transaction_detail.png)
+| Nama Dataset | Deskripsi | Tabel | Keterangan |
+|-------------|-----------|------|---------------|
+| `customer_detail.csv` | Informasi pelanggan | [Lihat Tabel](data/customer_detail.csv) | [Lihat Keterangan](image/customer_detail.png) |
+| `funnel_detail.csv` | Data funnel penjualan | [Lihat Tabel](data/funnel_detail.csv) | [Lihat Keterangan](image/funnel_detail.png) |
+| `order_detail.csv` | Data transaksi penjualan | [Lihat Tabel](data/order_detail.csv) | [Lihat Keterangan](image/order_detail.png) |
+| `payment_detail.csv` | Metode pembayaran | [Lihat Tabel](data/payment_detail.csv) | [Lihat Keterangan](image/payment_detail.png) |
+| `product_detail.csv` | Detail produk | [Lihat Tabel](data/product_detail.csv) | [Lihat Keterangan](image/product_detail.png) |
+| `transaction_detail.csv` | Data transaksi keuangan | [Lihat Tabel](data/transaction_detail.csv) | [Lihat Keterangan](image/transaction_detail.png) |
 
-[skema dataset](image/skema.png)
+---
 
-## Data Cleaning
+## 🧼 Data Cleaning
+Pembersihan data dilakukan menggunakan **Google BigQuery**, mencakup:
 1. Menghapus spasi berlebih
 2. Menangani nilai NULL pada kolom provinsi
 3. Menangani nilai NULL pada kolom tanggal
 
-[query_data_cleaning](sql/00_data_cleaning.sql)
+🔗 [query data cleaning](sql/00_data_cleaning.sql)
 
-## Analisis Utama
-### 1. Laporan Pendapatan Bulanan 2024
-Menganalisis total pendapatan per bulan di tahun 2024. [query analisis 1](sql/01_monthly_total_revenue.sql)
+---
 
-### 2. Tren Penjualan per Kategori 2020–2024
-Mengidentifikasi kategori produk dengan total penjualan. [query analisis 2](sql/02_sales_trend_by_category.sql)
+## 🧮 SQL Analisis
+Seluruh data dianalisis menggunakan **Google BigQuery**.
+| Analisis | Deskripsi | Query |
+|---------|------------|-------|
+| Monthly Total Revenue | Menganalisis total pendapatan per bulan di tahun 2024 | [Lihat Query](sql/01_monthly_total_revenue.sql) |
+| Sales Trend by Category | Mengidentifikasi kategori produk dengan total penjualan | [Lihat Query](sql/02_sales_trend_by_category.sql) |
+| Monthly Channel Growth | Menganalisis YoY Growth Revenue per bulan 2024 vs 2023 dalam bulan yang sama berdasarkan channel | [Lihat Query](sql/03_monthly_channel_growth.sql) |
+| Effectiveness of Organic Events | Menganalisis tingkat efektivitas jalur organik | [Lihat Query](sql/04_effectiveness_of_organic_events.sql) |
+| Customer Onboarding Optimizing | Menganalisis optimasi customer onboarding | [Lihat Query](sql/05_customer_onboarding_optimization.sql) |
 
-### 3. Pertumbuhan Channel Bulanan 
-Menganalisis YoY Growth Revenue per bulan 2024 vs 2023 dalam bulan yang sama berdasarkan channel. [query analisis 3](sql/03_monthly_channel_growth.sql)
+---
 
-### 4. Laporan Kinerja Funnel untuk Event Organic 2024
-Menganalisis tingkat efektivitas jalur organik. [query analisis 4](sql/04_effectiveness_of_organic_events.sql)
+## 📊 Data Visualization 
+Visualisasi dashboard dibuat menggunakan **Google Looker Studio** dan berdasar pada query analisis.
 
-### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama
-Menganalisis optimasi customer onboarding. [query analisis 5](sql/05_customer_onboarding_optimization.sql)
+🔗 [Dashboard Overview]()
+🌐 [Lihat Dashboard Interaktif]()
 
-## Hasil Analisis
-### 1. Laporan Pendapatan Bulanan 2024
-#### Insight 
-Penjualan tertinggi terjadi pada bulan Oktober (834M) 
-  
-### 2. Tren Penjualan per Kategori 2020–2024
-#### Insight
-Permintaan pasar untuk kategori Home Decor dan Fashion mengalami peningkatan di tahun 2024
-   
-### 3. Pertumbuhan Channel Bulanan 
-#### Insight
-Channel Website menunjukkan menunjukkan pertumbuhan paling tinggi
+---
 
-### 4. Laporan Kinerja Funnel untuk Event Organic 2024.
-#### Insight
-Semua channel (App Store, Play Store, Website) memiliki efektivitas yang setara (25%) 
+## 🔍 Insight
+Insight diambil dan diurut berdasarkan hasil SQL analisis.
+- Penjualan tertinggi terjadi pada bulan Oktober (834M) 
+- Permintaan pasar untuk kategori Home Decor dan Fashion mengalami peningkatan di tahun 2024
+- Channel Website menunjukkan menunjukkan pertumbuhan paling tinggi
+- Semua channel (App Store, Play Store, Website) memiliki efektivitas yang setara (25%)
+- Semakin banyak pelanggan baru yang masuk, semakin besar kemungkinan terjadi perlambatan atau hambatan dalam proses konversi awal
 
-### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama.
-#### Insight
-Semakin banyak pelanggan baru yang masuk, semakin besar kemungkinan terjadi perlambatan atau hambatan dalam proses konversi awal
+---
 
+## 💡Rekomendasi
+Rekomendasi dibuat dan diurut berdasarkan insight.
+- Tingkatkan stok & kampanye sejak awal Q4
+- Peluang besar untuk ekspansi produk & kampanye pemasaran yang lebih optimal untuk kategori Home Decor dan Fashion
+- Optimalkan channel Website untuk retensi pelanggan lama
+- Memaksimalkan promosi tambahan untuk meningkatkan volume order
+- Lakukan analisis mendalam pada jalur konversi dengan mencari tahu langkah spesifik mana (misalnya, pengisian data, proses pembayaran pertama) yang mengalami penumpukan atau kegagalan saat trafik tinggi.
 
-#### Rekomendasi
-1. Tingkatkan stok & kampanye sejak awal Q4
-2. Peluang besar untuk ekspansi produk & kampanye pemasaran yang lebih optimal untuk kategori Home Decor dan Fashion
-3. Optimalkan channel Website untuk retensi pelanggan lama
-4. Memaksimalkan promosi tambahan untuk meningkatkan volume order
-5. Lakukan analisis mendalam pada jalur konversi dengan mencari tahu langkah spesifik mana (misalnya, pengisian data, proses pembayaran pertama) yang mengalami penumpukan atau kegagalan saat trafik tinggi.
+---
 
-## Data Visualization
-### 1. Laporan Pendapatan Bulanan 2024
-[gambar analisis 01](image/analisis_01.png)
-### 2. Tren Penjualan per Kategori 2020–2024
-[gambar analisis 02](image/analisis_02.png)
-### 3. Pertumbuhan Channel Bulanan 
-[gambar analisis 03](image/analisis_03.png)
-### 4. Laporan Kinerja Funnel untuk Event Organic 2024
-[gambar analisis 04](image/analisis_04.png)
-### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama
-[gambar analisis 05](image/analisis_05.png)
+## 🧠 Skill & Tools
+| Skill / Tool            | Penggunaan                                     |
+|--------------------------|-----------------------------------------------|
+| Google BigQuery | Data cleaning dan analisis |
+| Google Looker Studio | Dashboard dan visualisasi interaktif |
+| GitHub & Markdown | Dokumentasi dan publikasi proyek |
 
-<pre> ``` 📂 project-folder ├── 📄 README.md ├── 📂 data │ ├── orders.csv │ ├── customers.csv │ ├── products.csv │ ├── payments.csv │ ├── transactions.csv │ └── funnel.csv ├── 📂 sql │ ├── 01_data_cleaning.sql │ ├── 02_monthly_sales.sql │ ├── 03_top_products.sql │ ├── 04_payment_methods.sql │ └── 05_customer_segmentation.sql ├── 📂 notebooks │ └── eda_analysis.ipynb ├── 📂 images │ └── dashboard_overview.png ``` </pre>
+---
+
+## 📌 Tentang Saya
+Lulusan sarjana Matematika dengan pengalaman 5 tahun sebagai **operator produksi di industri otomotif**, dan saat ini sedang melakukan **career switch ke bidang Data Analyst**.  
+Saya telah menyelesaikan Bootcamp Data Analyst dan menguasai SQL(Google BigQuery) serta tool visualisasi(Google Looker Studio).
+
+📧 Email: elisa.martiana.dewi1301@gmail.com  
+🔗 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+💻 GitHub: [github.com/yourusername](https://github.com/yourusername)
+
+---
+
+## 📝 Penutup
+Proyek ini merupakan bagian dari portofolio untuk menunjukkan kemampuan saya dalam:
+- Mengelola dan membersihkan data dalam jumlah besar  
+- Melakukan analisis SQL yang relevan dengan bisnis  
+- Menyajikan insight melalui dashboard visualisasi  
+- Menyusun laporan profesional dengan GitHub & Markdown
+
+---
+
+## 📂 Struktur Folder 
+```
+📂 SQL E-Commerce Dataset
+├── 📄 README.md
+├── 📂 data
+│ ├── order_detail.csv
+│ ├── customer_detail.csv
+│ ├── product_detail.csv
+│ ├── payment_detail.csv
+│ ├── transaction_detail.csv
+│ └── funnel_detail.csv
+├── 📂 sql
+│ ├── 00_data_cleaning.sql
+│ ├── 01_monthly_total_revenue.sql
+│ ├── 02_sales_trend_by_category.sql
+│ ├── 03_monthly_channel_growth.sql
+│ ├── 04_effectiveness_of_organic_events.sql
+| └── 05_customer_onboarding_optimization.sql
+├── 📂 images
+│ ├── dashboard_overview.png
+│ ├── customer_detail.png
+│ ├── funnel_detail.png
+│ ├── order_detail.png
+│ ├── payment_detail.png
+│ ├── product_detail.png
+│ ├── transaction_detail.png
+│ └── skema.png
+```
