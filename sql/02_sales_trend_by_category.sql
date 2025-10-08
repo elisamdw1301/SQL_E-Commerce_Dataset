@@ -1,6 +1,6 @@
 -- ANALISIS 2
 
--- Menampilkan tren penjualan berdasarkan kategori
+-- Mengidentifikasi kategori produk berdasarkan total penjualan 
 
 SELECT    
     p.category, 
