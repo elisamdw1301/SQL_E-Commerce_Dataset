@@ -19,7 +19,8 @@ Menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan unt
 1. Menghapus spasi berlebih
 2. Menangani nilai NULL pada kolom provinsi
 3. Menangani nilai NULL pada kolom tanggal
-   [query_data_cleaning](sql/00_data_cleaning.sql)
+
+[query_data_cleaning](sql/00_data_cleaning.sql)
 
 ## Analisis Utama
 ### 1. Laporan Pendapatan Bulanan 2024
@@ -53,7 +54,7 @@ Menganalisis optimasi customer onboarding. [query analisis 5](sql/05_customer_on
 - Permintaan pasar untuk kategori Toys&Games dan Gaming Gear mengalami penurunan.
 - Permintaan pasar untuk kategori Electronics, Sports, dan Beauty cenderung stabil.
 - Permintaan pasar untuk kategori Home Decor dan Fashion mengalami peningkatan di tahun 2024.
-- Permintaan Kitchen Appliances melonjak hanya di tahun 2022 (musiman). Implikasi: strategi promosi musiman bisa diulang untuk memaksimalkan momentum.
+- Permintaan Kitchen Appliances melonjak hanya di tahun 2022 (musiman).
 #### Implikasi 
 - Perlu inovasi produk untuk kategori Toys&Games dan Gaming Gear.
 - Fokus efisiensi biaya dan supply chain untuk kategori Electronics, Sports, dan Beauty.
