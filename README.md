@@ -6,6 +6,15 @@ Menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan unt
 ## Tools 
 - BigQuery : Query dan analisis data
 - Looker Studio : Visualisasi data hasil analisis
+## 🧠 Skill & Tools yang Digunakan
+
+| Skill / Tool          | Keterangan Penggunaan |
+|------------------------|-------------------------|
+| SQL (BigQuery)         | Data cleaning dan analisis tren penjualan |
+| Python (Pandas, Matplotlib) | Exploratory Data Analysis tambahan |
+| Looker Studio          | Dashboard dan visualisasi interaktif |
+| GitHub & Markdown      | Publikasi project dalam bentuk portofolio |
+
 
 ## Dataset
 - `customer_detail.csv` [tabel](data/customer_detail.csv) & [keterangan](image/customer_detail.png)
