@@ -1,6 +1,6 @@
 -- ANALISIS 4
 
--- Menganalisis efektifitas jalur organic
+-- Menganalisis tingkat efektifitas jalur organic
 
 -- Membuat CTE untuk menampilkan data dari tabel `funnel_detail`
 WITH organic AS (  
