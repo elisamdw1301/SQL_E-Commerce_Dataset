@@ -1,7 +1,7 @@
 # SQL E-Commerce Dataset
 
 ## Tujuan 
-Menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan untuk periode 2020-2024.
+Project ini bertujuan untuk menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan untuk periode 2020-2024.
 
 ## Tools 
 - BigQuery : Query dan analisis data
@@ -11,7 +11,6 @@ Menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan unt
 | Skill / Tool          | Keterangan Penggunaan |
 |------------------------|-------------------------|
 | SQL (BigQuery)         | Data cleaning dan analisis tren penjualan |
-| Python (Pandas, Matplotlib) | Exploratory Data Analysis tambahan |
 | Looker Studio          | Dashboard dan visualisasi interaktif |
 | GitHub & Markdown      | Publikasi project dalam bentuk portofolio |
 
@@ -52,51 +51,31 @@ Menganalisis optimasi customer onboarding. [query analisis 5](sql/05_customer_on
 ## Hasil Analisis
 ### 1. Laporan Pendapatan Bulanan 2024
 #### Insight 
-- Titik penjualan tertinggi terjadi pada bulan Oktober sebesar 834M: Didorong event akhir tahun & liburan, konsumen lebih konsumtif.
-- Titik penjualan terendah terjadi pada bulan Januari sebesar 118M: Awal tahun konsumen menahan belanja pasca liburan.
-- Tren kenaikan di Q4 (_seasonal trend_): Data menunjukkan pola musiman yang konsisten.
-#### Implikasi
-- Tingkatkan stok & kampanye sejak awal Q4.
-- Luncurkan promo pasca-liburan & fokus produk dengan penjualan tertinggi.
-- Gunakan pola ini untuk perencanaan inventory, SDM, dan strategi marketing tahunan.
+Penjualan tertinggi terjadi pada bulan Oktober (834M) 
   
-### 2. Tren Penjualan per Kategori 2020–2024.
+### 2. Tren Penjualan per Kategori 2020–2024
 #### Insight
-- Permintaan pasar untuk kategori Toys&Games dan Gaming Gear mengalami penurunan.
-- Permintaan pasar untuk kategori Electronics, Sports, dan Beauty cenderung stabil.
-- Permintaan pasar untuk kategori Home Decor dan Fashion mengalami peningkatan di tahun 2024.
-- Permintaan Kitchen Appliances melonjak hanya di tahun 2022 (musiman).
-#### Implikasi 
-- Perlu inovasi produk untuk kategori Toys&Games dan Gaming Gear.
-- Fokus efisiensi biaya dan supply chain untuk kategori Electronics, Sports, dan Beauty.
-- Peluang besar untuk ekspansi produk & kampanye pemasaran lebih agresif untuk kategori Home Decor dan Fashion.
-- Strategi promosi musiman untuk kategori Kitchen Appliances bisa diulang untuk memaksimalkan momentum.
-  
+Permintaan pasar untuk kategori Home Decor dan Fashion mengalami peningkatan di tahun 2024
+   
 ### 3. Pertumbuhan Channel Bulanan 
 #### Insight
-- Channel Website menunjukkan stabilitas, namun pertumbuhan terbatas.
-#### Implikasi
-- Fokus memperkuat App channel karena growth paling tinggi.
-- Optimalkan channel Website untuk retensi pelanggan lama.
-  
+Channel Website menunjukkan menunjukkan pertumbuhan paling tinggi
+
 ### 4. Laporan Kinerja Funnel untuk Event Organic 2024.
 #### Insight
-- Semua channel (App Store, Play Store, Website) memiliki conversion rate yang sama, yaitu 25%: Efektivitas tiap channel setara.
-- Play Store memiliki total event terbesar yaitu 200: Memiliki potensi traffic lebih tinggi. 
-- App Store & Website memiliki event lebih rendah yaitu 176 & 172. Walau konversi sama, perlu strategi meningkatkan awareness/traffic agar kontribusi seimbang dengan Play Store.
-#### Implikasi
-- Memaksimalkan promosi tambahan untuk meningkatkan volume order untuk Play Store.
-- Perlu strategi untuk meningkatkan _awareness/traffic_ pada App Store & Website agar kontribusi seimbang dengan Play Store.
+Semua channel (App Store, Play Store, Website) memiliki efektivitas yang setara (25%) 
 
 ### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama.
 #### Insight
-- Kekuatan Channel Mobile App yaitu akuisisi tertinggi dan konsisten. Sedangkan kelemahannya yaitu konversi tidak secepat Offline Store.
-- Kekuatan Channel Offline Store yaitu konversi tercepat. Sedangkan kelemahannya yaitu jumlah pelanggan baru sedikit.
-- Kekuatan Channel Website yaitu masih berkontribusi dalam akuisisi. Sedangkan kelemahannya yaitu konversi yang lambat dan jumlah pelanggan sedikit.
-#### Implikasi
-- Untuk Channel Mobile App, perlu dioptimalkan promo in-app, push notification, & onboarding user.
-- Untuk Channel Offline Store, tetap dijaga sebagai channel pendukung, fokus pada segmen tertentu.
-- Untuk Channel Website, perlu memperbaiki UX, checkout flow, dan lakukan retargeting pasca registrasi.
+Semakin banyak pelanggan baru yang masuk, semakin besar kemungkinan terjadi perlambatan atau hambatan dalam proses konversi awal
+
+
+#### Rekomendasi
+1. Tingkatkan stok & kampanye sejak awal Q4
+2. Peluang besar untuk ekspansi produk & kampanye pemasaran yang lebih optimal untuk kategori Home Decor dan Fashion
+3. Optimalkan channel Website untuk retensi pelanggan lama
+4. Memaksimalkan promosi tambahan untuk meningkatkan volume order
+5. Lakukan analisis mendalam pada jalur konversi dengan mencari tahu langkah spesifik mana (misalnya, pengisian data, proses pembayaran pertama) yang mengalami penumpukan atau kegagalan saat trafik tinggi.
 
 ## Data Visualization
 ### 1. Laporan Pendapatan Bulanan 2024
@@ -110,3 +89,4 @@ Menganalisis optimasi customer onboarding. [query analisis 5](sql/05_customer_on
 ### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama
 [gambar analisis 05](image/analisis_05.png)
 
+<pre> ``` 📂 project-folder ├── 📄 README.md ├── 📂 data │ ├── orders.csv │ ├── customers.csv │ ├── products.csv │ ├── payments.csv │ ├── transactions.csv │ └── funnel.csv ├── 📂 sql │ ├── 01_data_cleaning.sql │ ├── 02_monthly_sales.sql │ ├── 03_top_products.sql │ ├── 04_payment_methods.sql │ └── 05_customer_segmentation.sql ├── 📂 notebooks │ └── eda_analysis.ipynb ├── 📂 images │ └── dashboard_overview.png ``` </pre>
