@@ -26,16 +26,16 @@ Menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan unt
 ### 1. Laporan Pendapatan Bulanan 2024
 Menganalisis total pendapatan per bulan di tahun 2024. [query analisis 1](sql/01_monthly_total_revenue.sql)
 
-### 2. Tren Penjualan per Kategori 2020–2024.
+### 2. Tren Penjualan per Kategori 2020–2024
 Mengidentifikasi kategori produk dengan total penjualan. [query analisis 2](sql/02_sales_trend_by_category.sql)
 
 ### 3. Pertumbuhan Channel Bulanan 
 Menganalisis YoY Growth Revenue per bulan 2024 vs 2023 dalam bulan yang sama berdasarkan channel. [query analisis 3](sql/03_monthly_channel_growth.sql)
 
-### 4. Laporan Kinerja Funnel untuk Event Organic 2024.
+### 4. Laporan Kinerja Funnel untuk Event Organic 2024
 Menganalisis tingkat efektivitas jalur organik. [query analisis 4](sql/04_effectiveness_of_organic_events.sql)
 
-### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama.
+### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama
 Menganalisis optimasi customer onboarding. [query analisis 5](sql/05_customer_onboarding_optimization.sql)
 
 ## Hasil Analisis
@@ -86,3 +86,20 @@ Menganalisis optimasi customer onboarding. [query analisis 5](sql/05_customer_on
 - Untuk Channel Mobile App, perlu dioptimalkan promo in-app, push notification, & onboarding user.
 - Untuk Channel Offline Store, tetap dijaga sebagai channel pendukung, fokus pada segmen tertentu.
 - Untuk Channel Website, perlu memperbaiki UX, checkout flow, dan lakukan retargeting pasca registrasi.
+
+## Data Visualization
+### 1. Laporan Pendapatan Bulanan 2024
+[gambar analisis 01](sql/01_monthly_total_revenue.sql)
+
+### 2. Tren Penjualan per Kategori 2020–2024
+[gambar analisis 02](sql/02_sales_trend_by_category.sql)
+
+### 3. Pertumbuhan Channel Bulanan 
+[gambar analisis 03](sql/03_monthly_channel_growth.sql)
+
+### 4. Laporan Kinerja Funnel untuk Event Organic 2024
+[gambar analisis 04](sql/04_effectiveness_of_organic_events.sql)
+
+### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama
+[gambar analisis 05](sql/05_customer_onboarding_optimization.sql)
+
