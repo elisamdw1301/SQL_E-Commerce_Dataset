@@ -1,5 +1,4 @@
--- Analisis 1
-
+-- ANALISIS 1
 
 -- Menghitung total pendapatan per bulan tahun 2024
 SELECT
