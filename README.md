@@ -16,12 +16,11 @@ Menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan unt
 - `transaction_detail.csv` [Lihat Tabel](data/transaction_detail.csv)
 
 ## Data Cleaning
-1. Menghapus duplikasi pada tabel `order_detail`
-2. Mengganti NULL pada kolom `province` dengan `UNKNOWN`
-3. Menghapus baris jika `customer_id` bernilai NULL
-4. Menghapus spasi berlebih pada data tabel `customer_detail`
+1. Menghapus spasi berlebih
+2. Menangani nilai NULL pada kolom provinsi
+3. Menangani nilai NULL pada kolom tanggal
 
-[Lihat Query](sql/01_cleaning.sql)
+[Query_data_cleaning](sql/01_cleaning.sql)
 
 ## Analisis Utama
 ### 1. Laporan Pendapatan Bulanan 2024
