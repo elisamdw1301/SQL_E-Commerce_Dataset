@@ -1,6 +1,6 @@
 -- ANALISIS 5
 
--- Mengetahui optimasi customer onboarding
+-- Menganalisis optimasi customer onboarding
 
 -- 1. Membuat CTE untuk menampilkan data pelanggan baru
 WITH first_order AS (  
@@ -11,7 +11,7 @@ WITH first_order AS (
         `FinalProject.order_detail`
     GROUP BY 
         customer_id 
-)
+)    
     
 -- 2. Menghitung rata-rata waktu
 SELECT
