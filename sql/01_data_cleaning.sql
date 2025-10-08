@@ -1,6 +1,5 @@
 -- DATA CLEANING
 
-
 -- 1. Menghapus spasi berlebih 
 CREATE OR REPLACE TABLE `FinalProject.customer_detail_cleaned` AS  -- Membuat tabel baru 
   SELECT  -- Mengambil data 
@@ -13,13 +12,11 @@ CREATE OR REPLACE TABLE `FinalProject.customer_detail_cleaned` AS  -- Membuat ta
     TRIM(`registration_channel `) AS registration_channel  -- Menghapus spasi berlebih pada kolom `registration_channel`
   FROM `FinalProject.customer_detail`;  -- Mengambil data dari tabel `customer_detail`
 
-
 -- 2. Menangani nilai NULL pada kolom provinsi
 SELECT  -- Mengambil data
   customer_id,  -- Memilih kolom `customer_id`
   COALESCE(province, 'UNKNOWN') AS province_cleaned   -- Mengganti nilai NULL kolom `province` dengan `UNKNOWN`
 FROM `FinalProject.customer_detail_cleaned`;  -- Mengambil data dari tabel `customer_detail_cleaned`
-
 
 -- 3. Menangani nilai NULL pada kolom tanggal
 SELECT  -- Mengambil data
