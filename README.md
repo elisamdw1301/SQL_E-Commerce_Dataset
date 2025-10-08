@@ -8,12 +8,14 @@ Menyusun laporan analisis penjualan, channel, funnel, dan perilaku pelanggan unt
 - Looker Studio : Visualisasi data hasil analisis
 
 ## Dataset
-- `customer_detail.csv` [lihat tabel](data/customer_detail.csv)
-- `funnel_detail.csv` [lihat tabel](data/funnel_detail.csv)
-- `order_detail.csv` [lihat tabel](data/order_detail.csv)
-- `payment_detail.csv` [lihat tabel](data/payment_detail.csv)
-- `product_detail.csv` [lihat tabel](data/product_detail.csv)
-- `transaction_detail.csv` [lihat tabel](data/transaction_detail.csv)
+- `customer_detail.csv` [tabel](data/customer_detail.csv) [keterangan]()
+- `funnel_detail.csv` [tabel](data/funnel_detail.csv) [keterangan]()
+- `order_detail.csv` [tabel](data/order_detail.csv) [keterangan]()
+- `payment_detail.csv` [tabel](data/payment_detail.csv) [keterangan]()
+- `product_detail.csv` [tabel](data/product_detail.csv) [keterangan]()
+- `transaction_detail.csv` [tabel](data/transaction_detail.csv) [keterangan]()
+
+[skema dataset]()
 
 ## Data Cleaning
 1. Menghapus spasi berlebih
@@ -89,17 +91,13 @@ Menganalisis optimasi customer onboarding. [query analisis 5](sql/05_customer_on
 
 ## Data Visualization
 ### 1. Laporan Pendapatan Bulanan 2024
-[gambar analisis 01](sql/01_monthly_total_revenue.sql)
-
+[gambar analisis 01](image/analisis_01.png)
 ### 2. Tren Penjualan per Kategori 2020–2024
-[gambar analisis 02](sql/02_sales_trend_by_category.sql)
-
+[gambar analisis 02](image/analisis_02.png)
 ### 3. Pertumbuhan Channel Bulanan 
-[gambar analisis 03](sql/03_monthly_channel_growth.sql)
-
+[gambar analisis 03](image/analisis_03.png)
 ### 4. Laporan Kinerja Funnel untuk Event Organic 2024
-[gambar analisis 04](sql/04_effectiveness_of_organic_events.sql)
-
+[gambar analisis 04](image/analisis_04.png)
 ### 5. Laporan Registrasi & Rata-rata Waktu ke Pembelian Pertama
-[gambar analisis 05](sql/05_customer_onboarding_optimization.sql)
+[gambar analisis 05](image/analisis_05.png)
 
