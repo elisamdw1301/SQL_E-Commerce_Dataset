@@ -53,8 +53,8 @@ Seluruh data dianalisis menggunakan **Google BigQuery**.
 ## 📊 Data Visualization 
 Visualisasi dashboard dibuat menggunakan **Google Looker Studio** dan berdasar pada query analisis.
 
-🔗 [Dashboard Overview]()
-🌐 [Lihat Dashboard Interaktif]()
+🔗 [Dashboard Overview](image/SQL_Dashboard.jpg)
+🌐 [Lihat Dashboard Interaktif](https://lookerstudio.google.com/reporting/a7b3d354-e010-4f35-808e-a964cb93d721)
 
 ---
 
