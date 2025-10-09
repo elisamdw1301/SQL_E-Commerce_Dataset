@@ -54,6 +54,7 @@ Seluruh data dianalisis menggunakan **Google BigQuery**.
 Visualisasi dashboard dibuat menggunakan **Google Looker Studio** dan berdasar pada query analisis.
 
 🔗 [Dashboard Overview](image/SQL_Dashboard.jpg)
+
 🌐 [Lihat Dashboard Interaktif](https://lookerstudio.google.com/reporting/a7b3d354-e010-4f35-808e-a964cb93d721)
 
 ---
@@ -127,7 +128,7 @@ Proyek ini merupakan bagian dari portofolio untuk menunjukkan kemampuan saya dal
 │ ├── 04_effectiveness_of_organic_events.sql
 | └── 05_customer_onboarding_optimization.sql
 ├── 📂 images
-│ ├── dashboard_overview.png
+│ ├── SQL_dashboard.jpg
 │ ├── customer_detail.png
 │ ├── funnel_detail.png
 │ ├── order_detail.png
