@@ -25,6 +25,7 @@ Dataset yang digunakan adalah **Final Project** yang berasal dari **Bootcamp Dat
 | `payment_detail.csv` | Metode pembayaran | [Lihat Tabel](data/payment_detail.csv) | [Lihat Keterangan](image/payment_detail.png) |
 | `product_detail.csv` | Detail produk | [Lihat Tabel](data/product_detail.csv) | [Lihat Keterangan](image/product_detail.png) |
 | `transaction_detail.csv` | Data transaksi keuangan | [Lihat Tabel](data/transaction_detail.csv) | [Lihat Keterangan](image/transaction_detail.png) |
+
 ⚠️ Dataset ini merupakan dataset fiktif yang digunakan untuk keperluan pembelajaran dalam program bootcamp. Tidak ada data pribadi atau data rahasia yang ditampilkan.
 
 ---
