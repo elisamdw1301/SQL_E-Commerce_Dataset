@@ -2,7 +2,7 @@
 
 -- 1. Menghapus spasi berlebih 
 CREATE OR REPLACE TABLE `FinalProject.customer_detail_cleaned` AS  -- Membuat tabel baru 
-  SELECT  -- Mengambil data 
+  SELECT  -- Memilih data 
     registration_date,  -- Memilih kolom `registration_date`
     dob,  -- Memilih kolom `dob`
     TRIM(`customer_id `) AS customer_id,  -- Menghapus spasi berlebih pada kolom `customer_id`
@@ -14,14 +14,14 @@ CREATE OR REPLACE TABLE `FinalProject.customer_detail_cleaned` AS  -- Membuat ta
     `FinalProject.customer_detail`;  -- Mengambil data dari tabel `customer_detail`
 
 -- 2. Menangani nilai NULL pada kolom provinsi
-SELECT  -- Mengambil data
+SELECT  -- Memilih data
   customer_id,  -- Memilih kolom `customer_id`
   COALESCE(province, 'UNKNOWN') AS province_cleaned   -- Mengganti nilai NULL kolom `province` dengan `UNKNOWN`
 FROM 
   `FinalProject.customer_detail_cleaned`;  -- Mengambil data dari tabel `customer_detail_cleaned`
 
 -- 3. Menangani nilai NULL pada kolom tanggal
-SELECT  -- Mengambil data
+SELECT  -- Memilih data
   *,  -- Memilih seluruh data
   COALESCE(order_date, CAST('2000-01-01 00:00:00 UTC' AS TIMESTAMP)) AS order_date_cleaned -- Mengubah nilai NULL pada kolom `order_date` dengan tanggal baru 
 FROM 
