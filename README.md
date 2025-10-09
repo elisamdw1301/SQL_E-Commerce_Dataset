@@ -8,7 +8,7 @@ Proyek ini bertujuan untuk menganalisis total penjualan, channel, funnel, dan pe
 - Tren penjualan berdasarkan kategori
 - Pertumbuhan channel bulanan
 - Kinerja funnel untuk event organic tahun 2024
-- Tingkat optimasi customer onboarding
+- Tingkat optimasi customer onboarding        
 
 Tujuan akhir dari proyek ini adalah memberikan **insight** yang dapat digunakan untuk mengambil keputusan bisnis.
 
@@ -55,8 +55,7 @@ Seluruh data dianalisis menggunakan **Google BigQuery**.
 ## 📊 Data Visualization 
 Visualisasi dashboard dibuat menggunakan **Google Looker Studio** dan berdasar pada query analisis.
 
-🔗 [Dashboard Overview](image/SQL_Dashboard.jpg)
-
+🔗 [Dashboard Overview](image/SQL_Dashboard.jpg)     
 🌐 [Lihat Dashboard Interaktif](https://lookerstudio.google.com/reporting/a7b3d354-e010-4f35-808e-a964cb93d721)
 
 ---
@@ -97,9 +96,9 @@ Saya telah menyelesaikan dan memiliki **sertifikasi Data Analyst dari Bootcamp**
 Siap berkontribusi dan berkomitmen dalam tim yang berfokus untuk menganalisis data, mengidentifikasi peluang perbaikan proses, dan mendukung optimasi strategi bisnis berbasis data.
 
 📧 Email: elisa.martiana.dewi1301@gmail.com  
-🔗 LinkedIn: [linkedin.com/in/elisa-martiana-dewi1301](https://www.linkedin.com/in/elisa-martiana-dewi1301/)  
+🔗 LinkedIn: [linkedin.com/in/elisa-martiana-dewi1301](https://www.linkedin.com/in/elisa-martiana-dewi1301/)   
+🧾 CV: [CV_Elisa Martiana Dewi](https://drive.google.com/file/d/1rZSsCKehdlMbplkECwhITp_m-CVwHqaB/view?usp=sharing)   
 💻 GitHub: [github.com/elisamdw1301](https://github.com/elisamdw1301/SQL_E-Commerce_Dataset.git)
-🧾 CV: [Lihat CV](https://drive.google.com/file/d/1rZSsCKehdlMbplkECwhITp_m-CVwHqaB/view?usp=sharing)
 
 ---
 
