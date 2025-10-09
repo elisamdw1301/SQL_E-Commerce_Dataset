@@ -10,7 +10,7 @@ Proyek ini bertujuan untuk menganalisis total penjualan, channel, funnel, dan pe
 - Kinerja funnel untuk event organic tahun 2024
 - Tingkat optimasi customer onboarding
 
-Tujuan akhir dari proyek ini adalah memberikan **insight strategis** yang dapat digunakan untuk mengambil keputusan bisnis.
+Tujuan akhir dari proyek ini adalah memberikan **insight** yang dapat digunakan untuk mengambil keputusan bisnis.
 
 ---
 
@@ -99,6 +99,7 @@ Siap berkontribusi dan berkomitmen dalam tim yang berfokus untuk menganalisis da
 📧 Email: elisa.martiana.dewi1301@gmail.com  
 🔗 LinkedIn: [linkedin.com/in/elisa-martiana-dewi1301](https://www.linkedin.com/in/elisa-martiana-dewi1301/)  
 💻 GitHub: [github.com/elisamdw1301](https://github.com/elisamdw1301/SQL_E-Commerce_Dataset.git)
+🧾 CV: [Lihat CV](https://drive.google.com/file/d/1rZSsCKehdlMbplkECwhITp_m-CVwHqaB/view?usp=sharing)
 
 ---
 
