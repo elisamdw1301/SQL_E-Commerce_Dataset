@@ -1,5 +1,7 @@
 # 🛍️ SQL E-Commerce Dataset
 
+---
+
 ## 📄 Deskripsi
 Proyek ini bertujuan untuk menganalisis total penjualan, channel, funnel, dan perilaku pelanggan untuk periode 2020-2024 menggunakan **Google BigQuery** dan **Google Looker Studio**. Fokus analisis meliputi:
 - Total pendapatan bulanan tahun 2024
@@ -86,11 +88,13 @@ Rekomendasi dibuat dan diurut berdasarkan insight.
 ---
 
 ## 📌 Tentang Saya
-Lulusan sarjana Matematika dengan pengalaman 5 tahun sebagai **operator produksi di industri otomotif**, dan saat ini sedang melakukan **career switch ke bidang Data Analyst**.  
-Saya telah menyelesaikan Bootcamp Data Analyst dan menguasai SQL(Google BigQuery) serta tool visualisasi(Google Looker Studio).
+Lulusan Matematika dengan pengalaman 5 tahun sebagai **operator produksi di industri otomotif** dan memiliki ketertarikan  **di bidang Data Analyst**. 
+Pengalaman sebelumnya mengasah ketajaman saya pada detail, perbaikan proses, dan manajemen operasional, yang kini saya terapkan melalui lensa data. 
+Saya telah menyelesaikan dan memiliki **sertifikasi Data Analyst dari Bootcamp** dengan keahlian utama SQL(Google BigQuery) untuk ekstraksi dan manipulasi data serta tool visualisasi(Google Looker Studio).
+Siap berkontribusi dan berkomitmen dalam tim yang berfokus untuk menganalisis data, mengidentifikasi peluang perbaikan proses, dan mendukung optimasi strategi bisnis berbasis data.
 
 📧 Email: elisa.martiana.dewi1301@gmail.com  
-🔗 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+🔗 LinkedIn: [linkedin.com/in/elisa-martiana-dewi1301](https://www.linkedin.com/in/elisa-martiana-dewi1301/)  
 💻 GitHub: [github.com/yourusername](https://github.com/yourusername)
 
 ---
