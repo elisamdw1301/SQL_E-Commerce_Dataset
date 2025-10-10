@@ -1,8 +1,8 @@
--- ANALISIS 5
+-- ANALYSIS 5
 
--- Menganalisis optimasi customer onboarding
+-- Analyzing customer onboarding optimization
 
--- 1. Membuat CTE untuk menampilkan data pelanggan baru
+-- 1. Create a CTE to display new customer data
 WITH first_order AS (  
     SELECT
       customer_id,
@@ -13,16 +13,16 @@ WITH first_order AS (
         customer_id 
 )    
     
--- 2. Menghitung rata-rata waktu
+-- 2. Calculating the average time
 SELECT
     EXTRACT(MONTH FROM cd.registration_date) AS month,  
     cd.registration_channel,
     COUNT(DISTINCT cd.customer_id) AS customer_new,  
--- Menghitung rata-rata waktu dari selisih hari pada tanggal pesanan yang paling awal dan tanggal registrasi
+-- Calculating the average time from the difference between the earliest order date and the registration date
     AVG(DATE_DIFF(DATE(fo.first_order_date), DATE(cd.registration_date), DAY)) AS avg_registration_to_first_order
 FROM 
     `FinalProject.customer_detail_cleaned` AS cd
--- Menggabungkan CTE dengan tabel `customer_detail_cleaned` berdasarkan `customer_id` yang sama
+-- Combining the CTE table with the `customer_detail_cleaned` table based on the same `customer_id` column
 JOIN 
     first_order AS fo  
 ON 
