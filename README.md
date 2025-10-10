@@ -114,7 +114,7 @@ This project is part of a portfolio to showcase my skills in:
 
 ## 📂 Folder Structure 
 ```
-📂 SQL E-Commerce Dataset
+📂 SQL E-Commerce Dashboard
 ├── 📄 README.md
 ├── 📂 data
 │ ├── order_detail.csv
