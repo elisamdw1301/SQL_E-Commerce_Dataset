@@ -1,8 +1,8 @@
--- ANALISIS 4
+-- ANALYSIS 4
 
--- Menganalisis tingkat efektifitas jalur organic
+-- Analyzing the effectiveness of organic channels
 
--- Membuat CTE untuk menampilkan data dari tabel `funnel_detail`
+-- Create a CTE to display data from the `funnel_detail` table
 WITH organic AS (  
   SELECT
     channel_source,
@@ -17,7 +17,7 @@ SELECT
   channel_source,
   COUNT(*) AS total_events,  
   COUNT(DISTINCT NULLIF(order_id, '')) AS total_converted_orders,  
--- Menampilkan persentase dengan rumus ((banyaknya data `order_id`/ banyaknya data(baris) dalam CTE) * 100)
+-- Displaying the percentage using the formula ((number of `order_id` data / number of data (rows) in CTE) * 100)
   CONCAT((SAFE_DIVIDE(COUNT(DISTINCT NULLIF(order_id, '')), COUNT(*)) * 100), '%') AS conversion_rate
 FROM 
   organic 
