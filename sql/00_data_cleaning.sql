@@ -1,28 +1,28 @@
 -- DATA CLEANING
 
--- 1. Menghapus spasi berlebih 
-CREATE OR REPLACE TABLE `FinalProject.customer_detail_cleaned` AS  -- Membuat tabel baru 
-  SELECT  -- Memilih data 
-    registration_date,  -- Memilih kolom `registration_date`
-    dob,  -- Memilih kolom `dob`
-    TRIM(`customer_id `) AS customer_id,  -- Menghapus spasi berlebih pada kolom `customer_id`
-    TRIM(`customer_name `) AS customer_name,  -- Menghapus spasi berlebih pada kolom `customer_name`
-    TRIM(`customer_type `) AS customer_type,  -- Menghapus spasi berlebih pada kolom `customer_type`
-    TRIM(`province `) AS province,  -- Menghapus spasi berlebih pada kolom `province`
-    TRIM(`registration_channel `) AS registration_channel  -- Menghapus spasi berlebih pada kolom `registration_channel`
+-- 1. Remove extra spaces
+CREATE OR REPLACE TABLE `FinalProject.customer_detail_cleaned` AS  -- Create a new table 
+  SELECT  -- Selecting data 
+    registration_date,  -- Selecting the `registration_date` column
+    dob,  -- Selecting the `dob` column
+    TRIM(`customer_id `) AS customer_id,  -- Remove extra spaces in the `customer_id` column
+    TRIM(`customer_name `) AS customer_name,  -- Remove extra spaces in the `customer_name` column
+    TRIM(`customer_type `) AS customer_type,  -- Remove extra spaces in the `customer_type` column
+    TRIM(`province `) AS province,  -- Remove extra spaces in the `province` column
+    TRIM(`registration_channel `) AS registration_channel  -- Remove extra spaces in the `registration_channel` column
   FROM 
-    `FinalProject.customer_detail`;  -- Mengambil data dari tabel `customer_detail`
+    `FinalProject.customer_detail`;  -- Retrieving data from the `customer_detail` table
 
--- 2. Menangani nilai NULL pada kolom provinsi
-SELECT  -- Memilih data
-  customer_id,  -- Memilih kolom `customer_id`
-  COALESCE(province, 'UNKNOWN') AS province_cleaned   -- Mengganti nilai NULL kolom `province` dengan `UNKNOWN`
+-- 2. Handling NULL values in the province column
+SELECT  -- Selecting data
+  customer_id,  -- Selecting the `customer_id` column
+  COALESCE(province, 'UNKNOWN') AS province_cleaned   -- Replace the NULL value in the `province` column with `UNKNOWN`
 FROM 
-  `FinalProject.customer_detail_cleaned`;  -- Mengambil data dari tabel `customer_detail_cleaned`
+  `FinalProject.customer_detail_cleaned`;  -- Retrieving data from the `customer_detail_cleaned` table
 
--- 3. Menangani nilai NULL pada kolom tanggal
-SELECT  -- Memilih data
-  *,  -- Memilih seluruh data
-  COALESCE(order_date, CAST('2000-01-01 00:00:00 UTC' AS TIMESTAMP)) AS order_date_cleaned -- Mengubah nilai NULL pada kolom `order_date` dengan tanggal baru 
+-- 3. Handling NULL values in date columns
+SELECT  -- Selecting data
+  *,  -- Selecting all data
+  COALESCE(order_date, CAST('2000-01-01 00:00:00 UTC' AS TIMESTAMP)) AS order_date_cleaned -- Change the NULL value in the `order_date` column with a new date 
 FROM 
-  `FinalProject.order_detail`  -- Mengambil data dari tabel `order_detail`
+  `FinalProject.order_detail`  -- Retrieving data from the `order_detail` table
