@@ -17,13 +17,13 @@ The ultimate goal of this project is to provide **insights** that can be used to
 ## 📚 Dataset
 The dataset used is **Final Project** from **Bootcamp Data Analysis**. There is a [dataset schema](image/skema.png) that will be used, and the following is a description of the dataset consisting of several `.csv` files:
 
-| Dataset Name | Dataset Description | Table | Table Description |
-|-------------|-----------|------|---------------|
-| `customer_detail.csv` | Customer information | [See The Table](data/customer_detail.csv) | [See The Description](image/customer_detail.png) |
-| `funnel_detail.csv` | Sales funnel data | [See The Table](data/funnel_detail.csv) | [See The Description](image/funnel_detail.png) |
-| `order_detail.csv` | Sales transaction data | [See The Table](data/order_detail.csv) | [See The Description](image/order_detail.png) |
-| `payment_detail.csv` | Payment methods | [See The Table](data/payment_detail.csv) | [See The Description](image/payment_detail.png) |
-| `product_detail.csv` | Product Details | [See The Table](data/product_detail.csv) | [See The Description](image/product_detail.png) |
+| Dataset Name             | Dataset Description        | Table                                        | Table Description                                   |
+|--------------------------|----------------------------|----------------------------------------------|-----------------------------------------------------|
+| `customer_detail.csv`    | Customer information       | [See The Table](data/customer_detail.csv)    | [See The Description](image/customer_detail.png)    |
+| `funnel_detail.csv`      | Sales funnel data          | [See The Table](data/funnel_detail.csv)      | [See The Description](image/funnel_detail.png)      |
+| `order_detail.csv`       | Sales transaction data     | [See The Table](data/order_detail.csv)       | [See The Description](image/order_detail.png)       |
+| `payment_detail.csv`     | Payment methods            | [See The Table](data/payment_detail.csv)     | [See The Description](image/payment_detail.png)     |
+| `product_detail.csv`     | Product Details            | [See The Table](data/product_detail.csv)     | [See The Description](image/product_detail.png)     |
 | `transaction_detail.csv` | Financial transaction data | [See The Table](data/transaction_detail.csv) | [See The Description](image/transaction_detail.png) |
 
 ⚠️ This dataset is a fictional dataset used for learning purposes in the bootcamp program. No personal or confidential data is displayed.
@@ -42,13 +42,13 @@ Data cleaning was performed using **Google BigQuery**, including:
 
 ## 🧮 SQL Analysis
 All data was analyzed using **Google BigQuery**.
-| Analysis | Description | Query |
-|---------|------------|-------|
-| Monthly Total Revenue | Analyzing total monthly revenue in 2024 | [See The Query](sql/01_monthly_total_revenue.sql) |
-| Sales Trend by Category | Identifying product categories by total sales | [See The Query](sql/02_sales_trend_by_category.sql) |
-| Monthly Channel Growth | Analyzing YoY growth revenue per month in 2024 vs. 2023 in the same month based on channel | [See The Query](sql/03_monthly_channel_growth.sql) |
-| Effectiveness of Organic Events | Analyzing the effectiveness of organic pathways | [See The Query](sql/04_effectiveness_of_organic_events.sql) |
-| Customer Onboarding Optimizing | Analyzing customer onboarding optimization | [See The Query](sql/05_customer_onboarding_optimization.sql) |
+| Analysis                        | Description                                                                                 | Query                                                        |
+|---------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Monthly Total Revenue           | Analyzing total monthly revenue in 2024                                                     | [See The Query](sql/01_monthly_total_revenue.sql)            |
+| Sales Trend by Category         | Identifying product categories by total sales                                               | [See The Query](sql/02_sales_trend_by_category.sql)          |
+| Monthly Channel Growth          | Analyzing YoY growth revenue per month in 2024 vs. 2023 in the same month based on channel  | [See The Query](sql/03_monthly_channel_growth.sql)           |
+| Effectiveness of Organic Events | Analyzing the effectiveness of organic pathways                                             | [See The Query](sql/04_effectiveness_of_organic_events.sql)  |
+| Customer Onboarding Optimizing  | Analyzing customer onboarding optimization                                                  | [See The Query](sql/05_customer_onboarding_optimization.sql) |
 
 ---
 
@@ -81,11 +81,11 @@ Recommendations are created and sorted based on insights.
 ---
 
 ## 🧠 Skill & Tools
-| Skill / Tool            | Usage                                 |
-|--------------------------|-----------------------------------------------|
-| Google BigQuery | Data cleaning and analysis |
-| Google Looker Studio | Dashboard and interactive visualizing |
-| GitHub & Markdown | Project documentation and publication |
+| Skill / Tool             | Usage                                 |
+|--------------------------|---------------------------------------|
+| Google BigQuery          | Data cleaning and analysis            |
+| Google Looker Studio     | Dashboard and interactive visualizing |
+| GitHub & Markdown        | Project documentation and publication |
 
 ---
 
@@ -99,7 +99,7 @@ I am ready to contribute and commit to a team focused on analyzing data, identif
 📧 Email: elisa.martiana.dewi1301@gmail.com  
 🔗 LinkedIn: [linkedin.com/in/elisa-martiana-dewi1301](https://www.linkedin.com/in/elisa-martiana-dewi1301/)   
 🧾 CV: [CV_Elisa Martiana Dewi](https://drive.google.com/file/d/1rZSsCKehdlMbplkECwhITp_m-CVwHqaB/view?usp=sharing)   
-💻 GitHub: [github.com/elisamdw1301](https://github.com/elisamdw1301/SQL_E-Commerce_Dataset.git)
+💻 GitHub: [github.com/elisamdw1301](https://github.com/elisamdw1301)
 
 ---
 
