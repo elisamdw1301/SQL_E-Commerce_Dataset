@@ -98,7 +98,7 @@ I am ready to contribute and commit to a team focused on analyzing data, identif
 
 📧 Email: elisa.martiana.dewi1301@gmail.com  
 🔗 LinkedIn: [linkedin.com/in/elisa-martiana-dewi1301](https://www.linkedin.com/in/elisa-martiana-dewi1301/)   
-🧾 CV: [CV_Elisa Martiana Dewi](https://drive.google.com/file/d/1rZSsCKehdlMbplkECwhITp_m-CVwHqaB/view?usp=sharing)   
+🧾 CV: [CV_Elisa Martiana Dewi](https://drive.google.com/file/d/1ER17MfZrwFb7DQycJmV6SHe6sKkwNHve/view?usp=sharing)   
 💻 GitHub: [github.com/elisamdw1301](https://github.com/elisamdw1301)
 
 ---
